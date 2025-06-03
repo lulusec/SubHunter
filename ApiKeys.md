@@ -1,5 +1,5 @@
 # Sem vlož tvoje API kľuče v tvare [APIKEY]:
 
-Virustotal: [EXAMPLE_API_KEY]
-Shodan: []
+1. Virustotal: [EXAMPLE_APIKEY]
+2. Shodan: []
 
