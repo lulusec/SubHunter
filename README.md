@@ -8,3 +8,8 @@ The goal of SubHunter is to streamline passive and active enumeration into a sin
 > cd SubHunter
 > bash install.sh
 > ```
+
+## Use:
+> ```
+> ./subhunter.sh -h
+> ```
