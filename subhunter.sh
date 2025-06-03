@@ -70,9 +70,6 @@ assetfinder -subs-only "$DOMAIN" >> "$TMPFILE"
 echo "[+] Running subfinder..."
 subfinder -d "$DOMAIN" >> "$TMPFILE"
 
-echo "[+] Running amass (passive)..."
-amass enum -passive -d "$DOMAIN" >> "$TMPFILE"
-
 echo "[+] Running sublist3r..."
 sublist3r -d "$DOMAIN" -o temp_sublist3r.txt >/dev/null 2>&1
 cat temp_sublist3r.txt >> "$TMPFILE"
